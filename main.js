@@ -131,7 +131,7 @@ function CheckPrerequisite(n) {
     t = "/kiem-tra-tien-quyet/" + n + "/" + $registrationMode;
   return (
     $.ajax({
-      type: "POST",
+      type: "POST", 
       cache: !1,
       async: !1,
       url: t,
